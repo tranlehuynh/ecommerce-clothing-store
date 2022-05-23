@@ -7,7 +7,7 @@ import heroSliderData from "../assets/fake-data/hero-slider";
 const Home = () => {
   return (
     <Helmet title="Trang chủ">
-      <HeroSlider data={heroSliderData} />
+      <HeroSlider data={heroSliderData} control={true} />
     </Helmet>
   );
 };
